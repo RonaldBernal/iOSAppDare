@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		BB45C5891CB0ACB200C83051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5881CB0ACB200C83051 /* AppDelegate.swift */; };
-		BB45C58B1CB0ACB200C83051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C58A1CB0ACB200C83051 /* ViewController.swift */; };
 		BB45C58E1CB0ACB200C83051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45C58C1CB0ACB200C83051 /* Main.storyboard */; };
 		BB45C5901CB0ACB200C83051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB45C58F1CB0ACB200C83051 /* Assets.xcassets */; };
 		BB45C5931CB0ACB200C83051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45C5911CB0ACB200C83051 /* LaunchScreen.storyboard */; };
+		BB45C59D1CB0B63E00C83051 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C59B1CB0B63E00C83051 /* Bolts.framework */; };
+		BB45C59E1CB0B63E00C83051 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C59C1CB0B63E00C83051 /* Parse.framework */; };
+		BB45C5A01CB0B6B500C83051 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C59F1CB0B6B500C83051 /* AudioToolbox.framework */; };
+		BB45C5A21CB0B6C000C83051 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5A11CB0B6C000C83051 /* CFNetwork.framework */; };
+		BB45C5A41CB0B6C900C83051 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5A31CB0B6C900C83051 /* CoreGraphics.framework */; };
+		BB45C5A61CB0B6D400C83051 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5A51CB0B6D400C83051 /* CoreLocation.framework */; };
+		BB45C5A81CB0B6DB00C83051 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5A71CB0B6DB00C83051 /* QuartzCore.framework */; };
+		BB45C5AA1CB0B6E300C83051 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5A91CB0B6E300C83051 /* Security.framework */; };
+		BB45C5AC1CB0B6F200C83051 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5AB1CB0B6F200C83051 /* StoreKit.framework */; };
+		BB45C5AE1CB0B6FC00C83051 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5AD1CB0B6FB00C83051 /* SystemConfiguration.framework */; };
+		BB45C5B01CB0B70D00C83051 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5AF1CB0B70D00C83051 /* libz.tbd */; };
+		BB45C5B21CB0B72300C83051 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5B11CB0B72300C83051 /* libsqlite3.tbd */; };
+		BB45C5B51CB0B94F00C83051 /* RABLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */; };
+		BB45C5B91CB0C1F100C83051 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5B81CB0C1F100C83051 /* CAGradientLayer.swift */; };
+		BB45C5BB1CB0D57600C83051 /* RABUIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5BA1CB0D57600C83051 /* RABUIPageViewController.swift */; };
+		BB45C5BD1CB0EBDA00C83051 /* RABOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5BC1CB0EBDA00C83051 /* RABOnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB45C5851CB0ACB200C83051 /* Dare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB45C5881CB0ACB200C83051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB45C58A1CB0ACB200C83051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB45C58D1CB0ACB200C83051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB45C58F1CB0ACB200C83051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB45C5921CB0ACB200C83051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB45C5941CB0ACB200C83051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB45C59B1CB0B63E00C83051 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BB45C59C1CB0B63E00C83051 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BB45C59F1CB0B6B500C83051 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB45C5A11CB0B6C000C83051 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BB45C5A31CB0B6C900C83051 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB45C5A51CB0B6D400C83051 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB45C5A71CB0B6DB00C83051 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BB45C5A91CB0B6E300C83051 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BB45C5AB1CB0B6F200C83051 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BB45C5AD1CB0B6FB00C83051 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB45C5AF1CB0B70D00C83051 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BB45C5B11CB0B72300C83051 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABLoginViewController.swift; sourceTree = "<group>"; };
+		BB45C5B81CB0C1F100C83051 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
+		BB45C5BA1CB0D57600C83051 /* RABUIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABUIPageViewController.swift; sourceTree = "<group>"; };
+		BB45C5BC1CB0EBDA00C83051 /* RABOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABOnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB45C5B21CB0B72300C83051 /* libsqlite3.tbd in Frameworks */,
+				BB45C5B01CB0B70D00C83051 /* libz.tbd in Frameworks */,
+				BB45C5AE1CB0B6FC00C83051 /* SystemConfiguration.framework in Frameworks */,
+				BB45C5AC1CB0B6F200C83051 /* StoreKit.framework in Frameworks */,
+				BB45C5AA1CB0B6E300C83051 /* Security.framework in Frameworks */,
+				BB45C5A81CB0B6DB00C83051 /* QuartzCore.framework in Frameworks */,
+				BB45C5A61CB0B6D400C83051 /* CoreLocation.framework in Frameworks */,
+				BB45C5A41CB0B6C900C83051 /* CoreGraphics.framework in Frameworks */,
+				BB45C5A21CB0B6C000C83051 /* CFNetwork.framework in Frameworks */,
+				BB45C5A01CB0B6B500C83051 /* AudioToolbox.framework in Frameworks */,
+				BB45C59E1CB0B63E00C83051 /* Parse.framework in Frameworks */,
+				BB45C59D1CB0B63E00C83051 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +80,7 @@
 		BB45C57C1CB0ACB200C83051 = {
 			isa = PBXGroup;
 			children = (
+				BB45C5B31CB0B75000C83051 /* Dependencies */,
 				BB45C5871CB0ACB200C83051 /* Dare */,
 				BB45C5861CB0ACB200C83051 /* Products */,
 			);
@@ -54,14 +97,52 @@
 		BB45C5871CB0ACB200C83051 /* Dare */ = {
 			isa = PBXGroup;
 			children = (
+				BB45C59A1CB0B62800C83051 /* Parse */,
+				BB45C5BE1CB0ED4200C83051 /* Onboarding */,
 				BB45C5881CB0ACB200C83051 /* AppDelegate.swift */,
-				BB45C58A1CB0ACB200C83051 /* ViewController.swift */,
+				BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */,
 				BB45C58C1CB0ACB200C83051 /* Main.storyboard */,
 				BB45C58F1CB0ACB200C83051 /* Assets.xcassets */,
 				BB45C5911CB0ACB200C83051 /* LaunchScreen.storyboard */,
 				BB45C5941CB0ACB200C83051 /* Info.plist */,
+				BB45C5B81CB0C1F100C83051 /* CAGradientLayer.swift */,
 			);
 			path = Dare;
+			sourceTree = "<group>";
+		};
+		BB45C59A1CB0B62800C83051 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				BB45C59B1CB0B63E00C83051 /* Bolts.framework */,
+				BB45C59C1CB0B63E00C83051 /* Parse.framework */,
+			);
+			name = Parse;
+			sourceTree = "<group>";
+		};
+		BB45C5B31CB0B75000C83051 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				BB45C5B11CB0B72300C83051 /* libsqlite3.tbd */,
+				BB45C5AF1CB0B70D00C83051 /* libz.tbd */,
+				BB45C5AD1CB0B6FB00C83051 /* SystemConfiguration.framework */,
+				BB45C5AB1CB0B6F200C83051 /* StoreKit.framework */,
+				BB45C5A91CB0B6E300C83051 /* Security.framework */,
+				BB45C5A71CB0B6DB00C83051 /* QuartzCore.framework */,
+				BB45C5A51CB0B6D400C83051 /* CoreLocation.framework */,
+				BB45C5A31CB0B6C900C83051 /* CoreGraphics.framework */,
+				BB45C5A11CB0B6C000C83051 /* CFNetwork.framework */,
+				BB45C59F1CB0B6B500C83051 /* AudioToolbox.framework */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		BB45C5BE1CB0ED4200C83051 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BB45C5BA1CB0D57600C83051 /* RABUIPageViewController.swift */,
+				BB45C5BC1CB0EBDA00C83051 /* RABOnboardingViewController.swift */,
+			);
+			name = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB45C58B1CB0ACB200C83051 /* ViewController.swift in Sources */,
+				BB45C5B51CB0B94F00C83051 /* RABLoginViewController.swift in Sources */,
 				BB45C5891CB0ACB200C83051 /* AppDelegate.swift in Sources */,
+				BB45C5BD1CB0EBDA00C83051 /* RABOnboardingViewController.swift in Sources */,
+				BB45C5B91CB0C1F100C83051 /* CAGradientLayer.swift in Sources */,
+				BB45C5BB1CB0D57600C83051 /* RABUIPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +334,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dare",
+				);
 				INFOPLIST_FILE = Dare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rbernal.Dare;
@@ -261,6 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dare",
+				);
 				INFOPLIST_FILE = Dare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rbernal.Dare;
