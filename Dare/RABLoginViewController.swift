@@ -20,12 +20,8 @@ class RABLoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
-        let background = CAGradientLayer().blueColor()
-        background.frame = self.view.bounds
-        self.view.layer.insertSublayer(background, atIndex: 0)
-        */
-                
+        self.view.addBackground()
+        
         rabEmail.text = "ronald.abernal@gmail.com"
         rabPassword.text = "Password123"
     }
@@ -69,31 +65,13 @@ class RABLoginViewController: UIViewController {
     }
     
     @IBAction func signupWasPressed(sender: AnyObject) {
-        if rabEmail.text != "" && rabPassword.text != "" {
-            let user = PFUser()
-            user.username = rabEmail.text
-            user.email = rabEmail.text
-            user.password = rabPassword.text
-            
-            user.signUpInBackgroundWithBlock({ (success: Bool, error: NSError?) -> Void in
-                if success {
-                    print("User signed up successfully")
-                    self.loginWasPressed(self)
-                } else {
-                    print(error)
-                }
-            })
-        }else {
-            let alertController = UIAlertController(title: "Oops!", message: "Los campos de correo y contraseña no pueden estar vacíos", preferredStyle: .Alert)
-            
-            let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
-                
-            }
-            alertController.addAction(OKAction)
-            
-            self.presentViewController(alertController, animated: true, completion: nil)
-        }
+        self.presentController("signupView")
     }
+    
+    @IBAction func forgotPasswordWasPressed(sender: AnyObject) {
+        self.presentController("forgotPasswordView")
+    }
+    
     
     func presentController(storyboardId: String) {
         let controller = self.storyboard?.instantiateViewControllerWithIdentifier(storyboardId)

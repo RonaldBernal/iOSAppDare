@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="216" id="Nvh-SC-Ceh" customClass="ExperiencesViewCell" customModule="Dare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nvh-SC-Ceh" id="3uo-Cc-Ghc">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDO-vp-XMX">
+                        <rect key="frame" x="0.0" y="8" width="320" height="125"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DZp-Aa-Jbc">
+                        <rect key="frame" x="8" y="138" width="288" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Short Description" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="2" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NW7-zk-dEf">
+                        <rect key="frame" x="8" y="164" width="288" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCK-Di-8B5">
+                        <rect key="frame" x="279" y="186" width="33" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HCK-Di-8B5" firstAttribute="top" secondItem="NW7-zk-dEf" secondAttribute="bottom" constant="5" id="8Og-5u-IgA"/>
+                    <constraint firstItem="HDO-vp-XMX" firstAttribute="height" secondItem="3uo-Cc-Ghc" secondAttribute="height" multiplier="0.5" id="8cw-Nf-xTM"/>
+                    <constraint firstItem="DZp-Aa-Jbc" firstAttribute="width" secondItem="3uo-Cc-Ghc" secondAttribute="width" multiplier="0.9" id="B0g-5f-ZsB"/>
+                    <constraint firstItem="NW7-zk-dEf" firstAttribute="top" secondItem="DZp-Aa-Jbc" secondAttribute="bottom" constant="5" id="Emd-RE-ZRX"/>
+                    <constraint firstItem="DZp-Aa-Jbc" firstAttribute="top" secondItem="HDO-vp-XMX" secondAttribute="bottom" constant="5" id="Hu8-GC-1TA"/>
+                    <constraint firstItem="HDO-vp-XMX" firstAttribute="width" secondItem="3uo-Cc-Ghc" secondAttribute="width" id="Rbs-09-H1F"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="NW7-zk-dEf" secondAttribute="leading" id="Z46-hh-cDj"/>
+                    <constraint firstItem="HDO-vp-XMX" firstAttribute="top" secondItem="3uo-Cc-Ghc" secondAttribute="topMargin" id="djG-sv-vph"/>
+                    <constraint firstItem="NW7-zk-dEf" firstAttribute="width" secondItem="3uo-Cc-Ghc" secondAttribute="width" multiplier="0.9" id="eNb-tU-vkG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="HCK-Di-8B5" secondAttribute="trailing" id="neC-qj-tSN"/>
+                    <constraint firstItem="HDO-vp-XMX" firstAttribute="centerX" secondItem="3uo-Cc-Ghc" secondAttribute="centerX" id="uwO-aU-gmQ"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="DZp-Aa-Jbc" secondAttribute="leading" id="wf1-hT-WNK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="experienceImage" destination="HDO-vp-XMX" id="kcY-4w-3P0"/>
+                <outlet property="experiencePrice" destination="HCK-Di-8B5" id="01A-aS-EFi"/>
+                <outlet property="experienceShortDesc" destination="NW7-zk-dEf" id="hVX-Ok-K3T"/>
+                <outlet property="experienceTitle" destination="DZp-Aa-Jbc" id="NiE-4H-2oE"/>
+            </connections>
+            <point key="canvasLocation" x="532" y="371"/>
+        </tableViewCell>
+    </objects>
+</document>

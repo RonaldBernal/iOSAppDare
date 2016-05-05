@@ -12,6 +12,7 @@ class RABUIPageViewController: UIPageViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addBackground()
         
         dataSource = self
         

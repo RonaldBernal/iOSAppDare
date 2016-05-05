@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B59D57C1CCBD23200A8622D /* uiBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59D57B1CCBD23200A8622D /* uiBackground.swift */; };
+		9B59D57E1CCBD38000A8622D /* RABOnboardingFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59D57D1CCBD38000A8622D /* RABOnboardingFirstViewController.swift */; };
+		9B59D5801CCBD39500A8622D /* RABOnboardingMiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59D57F1CCBD39500A8622D /* RABOnboardingMiddleViewController.swift */; };
+		BB08DF241CB2B41E00145C07 /* RABForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08DF231CB2B41E00145C07 /* RABForgotPasswordViewController.swift */; };
 		BB45C5891CB0ACB200C83051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5881CB0ACB200C83051 /* AppDelegate.swift */; };
 		BB45C58E1CB0ACB200C83051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45C58C1CB0ACB200C83051 /* Main.storyboard */; };
 		BB45C5901CB0ACB200C83051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB45C58F1CB0ACB200C83051 /* Assets.xcassets */; };
@@ -24,12 +28,21 @@
 		BB45C5B01CB0B70D00C83051 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5AF1CB0B70D00C83051 /* libz.tbd */; };
 		BB45C5B21CB0B72300C83051 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45C5B11CB0B72300C83051 /* libsqlite3.tbd */; };
 		BB45C5B51CB0B94F00C83051 /* RABLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */; };
-		BB45C5B91CB0C1F100C83051 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5B81CB0C1F100C83051 /* CAGradientLayer.swift */; };
 		BB45C5BB1CB0D57600C83051 /* RABUIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5BA1CB0D57600C83051 /* RABUIPageViewController.swift */; };
-		BB45C5BD1CB0EBDA00C83051 /* RABOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5BC1CB0EBDA00C83051 /* RABOnboardingViewController.swift */; };
+		BB45C5BD1CB0EBDA00C83051 /* RABOnboardingLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45C5BC1CB0EBDA00C83051 /* RABOnboardingLastViewController.swift */; };
+		BB5D3D2E1CD9D58300A1F569 /* RABSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D3D2D1CD9D58300A1F569 /* RABSignupViewController.swift */; };
+		BB6C5DB91CDAC8FD00425F9B /* ExperiencesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB6C5DB81CDAC8FD00425F9B /* ExperiencesViewCell.xib */; };
+		BB6C5DBB1CDACCB400425F9B /* ExperiencesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DBA1CDACCB400425F9B /* ExperiencesViewCell.swift */; };
+		BB6C5DBE1CDACDBD00425F9B /* RABExperienceCatalogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DBD1CDACDBD00425F9B /* RABExperienceCatalogController.swift */; };
+		BB6C5DC01CDAD08F00425F9B /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DBF1CDAD08F00425F9B /* ExperienceDetailViewController.swift */; };
+		BB6C5DC21CDADC3B00425F9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DC11CDADC3B00425F9B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B59D57B1CCBD23200A8622D /* uiBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiBackground.swift; sourceTree = "<group>"; };
+		9B59D57D1CCBD38000A8622D /* RABOnboardingFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABOnboardingFirstViewController.swift; sourceTree = "<group>"; };
+		9B59D57F1CCBD39500A8622D /* RABOnboardingMiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABOnboardingMiddleViewController.swift; sourceTree = "<group>"; };
+		BB08DF231CB2B41E00145C07 /* RABForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		BB45C5851CB0ACB200C83051 /* Dare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB45C5881CB0ACB200C83051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB45C58D1CB0ACB200C83051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,9 +62,14 @@
 		BB45C5AF1CB0B70D00C83051 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BB45C5B11CB0B72300C83051 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABLoginViewController.swift; sourceTree = "<group>"; };
-		BB45C5B81CB0C1F100C83051 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
 		BB45C5BA1CB0D57600C83051 /* RABUIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABUIPageViewController.swift; sourceTree = "<group>"; };
-		BB45C5BC1CB0EBDA00C83051 /* RABOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABOnboardingViewController.swift; sourceTree = "<group>"; };
+		BB45C5BC1CB0EBDA00C83051 /* RABOnboardingLastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABOnboardingLastViewController.swift; sourceTree = "<group>"; };
+		BB5D3D2D1CD9D58300A1F569 /* RABSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABSignupViewController.swift; sourceTree = "<group>"; };
+		BB6C5DB81CDAC8FD00425F9B /* ExperiencesViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExperiencesViewCell.xib; sourceTree = "<group>"; };
+		BB6C5DBA1CDACCB400425F9B /* ExperiencesViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperiencesViewCell.swift; sourceTree = "<group>"; };
+		BB6C5DBD1CDACDBD00425F9B /* RABExperienceCatalogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABExperienceCatalogController.swift; sourceTree = "<group>"; };
+		BB6C5DBF1CDAD08F00425F9B /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
+		BB6C5DC11CDADC3B00425F9B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB08DF251CB2B4D900145C07 /* Login and Related */ = {
+			isa = PBXGroup;
+			children = (
+				BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */,
+				BB08DF231CB2B41E00145C07 /* RABForgotPasswordViewController.swift */,
+				BB5D3D2D1CD9D58300A1F569 /* RABSignupViewController.swift */,
+			);
+			name = "Login and Related";
+			sourceTree = "<group>";
+		};
 		BB45C57C1CB0ACB200C83051 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +127,16 @@
 			children = (
 				BB45C59A1CB0B62800C83051 /* Parse */,
 				BB45C5BE1CB0ED4200C83051 /* Onboarding */,
+				BB6C5DBC1CDACD6C00425F9B /* Experiences */,
+				BB6C5DB71CDAC8AA00425F9B /* CustomViews */,
+				BB08DF251CB2B4D900145C07 /* Login and Related */,
+				BB6C5DC11CDADC3B00425F9B /* MainViewController.swift */,
+				9B59D57B1CCBD23200A8622D /* uiBackground.swift */,
 				BB45C5881CB0ACB200C83051 /* AppDelegate.swift */,
-				BB45C5B41CB0B94F00C83051 /* RABLoginViewController.swift */,
 				BB45C58C1CB0ACB200C83051 /* Main.storyboard */,
-				BB45C58F1CB0ACB200C83051 /* Assets.xcassets */,
 				BB45C5911CB0ACB200C83051 /* LaunchScreen.storyboard */,
+				BB45C58F1CB0ACB200C83051 /* Assets.xcassets */,
 				BB45C5941CB0ACB200C83051 /* Info.plist */,
-				BB45C5B81CB0C1F100C83051 /* CAGradientLayer.swift */,
 			);
 			path = Dare;
 			sourceTree = "<group>";
@@ -140,9 +171,29 @@
 			isa = PBXGroup;
 			children = (
 				BB45C5BA1CB0D57600C83051 /* RABUIPageViewController.swift */,
-				BB45C5BC1CB0EBDA00C83051 /* RABOnboardingViewController.swift */,
+				9B59D57D1CCBD38000A8622D /* RABOnboardingFirstViewController.swift */,
+				9B59D57F1CCBD39500A8622D /* RABOnboardingMiddleViewController.swift */,
+				BB45C5BC1CB0EBDA00C83051 /* RABOnboardingLastViewController.swift */,
 			);
 			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		BB6C5DB71CDAC8AA00425F9B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BB6C5DBA1CDACCB400425F9B /* ExperiencesViewCell.swift */,
+				BB6C5DB81CDAC8FD00425F9B /* ExperiencesViewCell.xib */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		BB6C5DBC1CDACD6C00425F9B /* Experiences */ = {
+			isa = PBXGroup;
+			children = (
+				BB6C5DBD1CDACDBD00425F9B /* RABExperienceCatalogController.swift */,
+				BB6C5DBF1CDAD08F00425F9B /* ExperienceDetailViewController.swift */,
+			);
+			name = Experiences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB45C5931CB0ACB200C83051 /* LaunchScreen.storyboard in Resources */,
+				BB6C5DB91CDAC8FD00425F9B /* ExperiencesViewCell.xib in Resources */,
 				BB45C5901CB0ACB200C83051 /* Assets.xcassets in Resources */,
 				BB45C58E1CB0ACB200C83051 /* Main.storyboard in Resources */,
 			);
@@ -217,10 +269,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6C5DBE1CDACDBD00425F9B /* RABExperienceCatalogController.swift in Sources */,
+				BB6C5DC21CDADC3B00425F9B /* MainViewController.swift in Sources */,
+				BB6C5DC01CDAD08F00425F9B /* ExperienceDetailViewController.swift in Sources */,
+				9B59D57E1CCBD38000A8622D /* RABOnboardingFirstViewController.swift in Sources */,
+				9B59D5801CCBD39500A8622D /* RABOnboardingMiddleViewController.swift in Sources */,
+				BB08DF241CB2B41E00145C07 /* RABForgotPasswordViewController.swift in Sources */,
+				BB5D3D2E1CD9D58300A1F569 /* RABSignupViewController.swift in Sources */,
+				BB6C5DBB1CDACCB400425F9B /* ExperiencesViewCell.swift in Sources */,
 				BB45C5B51CB0B94F00C83051 /* RABLoginViewController.swift in Sources */,
 				BB45C5891CB0ACB200C83051 /* AppDelegate.swift in Sources */,
-				BB45C5BD1CB0EBDA00C83051 /* RABOnboardingViewController.swift in Sources */,
-				BB45C5B91CB0C1F100C83051 /* CAGradientLayer.swift in Sources */,
+				9B59D57C1CCBD23200A8622D /* uiBackground.swift in Sources */,
+				BB45C5BD1CB0EBDA00C83051 /* RABOnboardingLastViewController.swift in Sources */,
 				BB45C5BB1CB0D57600C83051 /* RABUIPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +439,7 @@
 				BB45C5991CB0ACB200C83051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

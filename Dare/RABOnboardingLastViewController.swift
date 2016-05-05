@@ -8,15 +8,16 @@
 
 import UIKit
 
-class RABOnboardingViewController: UIViewController {
+class RABOnboardingLastViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addBackground()
     }
 
     @IBAction func endOnboarding(sender: AnyObject) {
         // change to login screen
-        self.presentController("login")
+        self.presentController("loginView")
     }
     
     func presentController(storyboardId: String) {
