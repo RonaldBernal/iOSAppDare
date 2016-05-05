@@ -36,6 +36,11 @@
 		BB6C5DBE1CDACDBD00425F9B /* RABExperienceCatalogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DBD1CDACDBD00425F9B /* RABExperienceCatalogController.swift */; };
 		BB6C5DC01CDAD08F00425F9B /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DBF1CDAD08F00425F9B /* ExperienceDetailViewController.swift */; };
 		BB6C5DC21CDADC3B00425F9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DC11CDADC3B00425F9B /* MainViewController.swift */; };
+		BB6C5DC51CDAF1D300425F9B /* CreateWishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DC41CDAF1D300425F9B /* CreateWishViewController.swift */; };
+		BB6C5DC71CDAF21700425F9B /* RABWishesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DC61CDAF21700425F9B /* RABWishesTableViewController.swift */; };
+		BB6C5DC91CDAF24B00425F9B /* WishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DC81CDAF24B00425F9B /* WishDetailViewController.swift */; };
+		BB6C5DCC1CDB038E00425F9B /* WishesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C5DCA1CDB038E00425F9B /* WishesViewCell.swift */; };
+		BB6C5DCD1CDB038E00425F9B /* WishesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB6C5DCB1CDB038E00425F9B /* WishesViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +75,11 @@
 		BB6C5DBD1CDACDBD00425F9B /* RABExperienceCatalogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABExperienceCatalogController.swift; sourceTree = "<group>"; };
 		BB6C5DBF1CDAD08F00425F9B /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
 		BB6C5DC11CDADC3B00425F9B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BB6C5DC41CDAF1D300425F9B /* CreateWishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWishViewController.swift; sourceTree = "<group>"; };
+		BB6C5DC61CDAF21700425F9B /* RABWishesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABWishesTableViewController.swift; sourceTree = "<group>"; };
+		BB6C5DC81CDAF24B00425F9B /* WishDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishDetailViewController.swift; sourceTree = "<group>"; };
+		BB6C5DCA1CDB038E00425F9B /* WishesViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishesViewCell.swift; sourceTree = "<group>"; };
+		BB6C5DCB1CDB038E00425F9B /* WishesViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishesViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +137,10 @@
 			children = (
 				BB45C59A1CB0B62800C83051 /* Parse */,
 				BB45C5BE1CB0ED4200C83051 /* Onboarding */,
-				BB6C5DBC1CDACD6C00425F9B /* Experiences */,
-				BB6C5DB71CDAC8AA00425F9B /* CustomViews */,
 				BB08DF251CB2B4D900145C07 /* Login and Related */,
+				BB6C5DB71CDAC8AA00425F9B /* CustomViews */,
+				BB6C5DBC1CDACD6C00425F9B /* Experiences */,
+				BB6C5DC31CDAF1A400425F9B /* Wishes */,
 				BB6C5DC11CDADC3B00425F9B /* MainViewController.swift */,
 				9B59D57B1CCBD23200A8622D /* uiBackground.swift */,
 				BB45C5881CB0ACB200C83051 /* AppDelegate.swift */,
@@ -183,6 +194,8 @@
 			children = (
 				BB6C5DBA1CDACCB400425F9B /* ExperiencesViewCell.swift */,
 				BB6C5DB81CDAC8FD00425F9B /* ExperiencesViewCell.xib */,
+				BB6C5DCA1CDB038E00425F9B /* WishesViewCell.swift */,
+				BB6C5DCB1CDB038E00425F9B /* WishesViewCell.xib */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -194,6 +207,16 @@
 				BB6C5DBF1CDAD08F00425F9B /* ExperienceDetailViewController.swift */,
 			);
 			name = Experiences;
+			sourceTree = "<group>";
+		};
+		BB6C5DC31CDAF1A400425F9B /* Wishes */ = {
+			isa = PBXGroup;
+			children = (
+				BB6C5DC41CDAF1D300425F9B /* CreateWishViewController.swift */,
+				BB6C5DC61CDAF21700425F9B /* RABWishesTableViewController.swift */,
+				BB6C5DC81CDAF24B00425F9B /* WishDetailViewController.swift */,
+			);
+			name = Wishes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +280,7 @@
 			files = (
 				BB45C5931CB0ACB200C83051 /* LaunchScreen.storyboard in Resources */,
 				BB6C5DB91CDAC8FD00425F9B /* ExperiencesViewCell.xib in Resources */,
+				BB6C5DCD1CDB038E00425F9B /* WishesViewCell.xib in Resources */,
 				BB45C5901CB0ACB200C83051 /* Assets.xcassets in Resources */,
 				BB45C58E1CB0ACB200C83051 /* Main.storyboard in Resources */,
 			);
@@ -275,13 +299,17 @@
 				9B59D57E1CCBD38000A8622D /* RABOnboardingFirstViewController.swift in Sources */,
 				9B59D5801CCBD39500A8622D /* RABOnboardingMiddleViewController.swift in Sources */,
 				BB08DF241CB2B41E00145C07 /* RABForgotPasswordViewController.swift in Sources */,
+				BB6C5DC91CDAF24B00425F9B /* WishDetailViewController.swift in Sources */,
 				BB5D3D2E1CD9D58300A1F569 /* RABSignupViewController.swift in Sources */,
+				BB6C5DC51CDAF1D300425F9B /* CreateWishViewController.swift in Sources */,
+				BB6C5DCC1CDB038E00425F9B /* WishesViewCell.swift in Sources */,
 				BB6C5DBB1CDACCB400425F9B /* ExperiencesViewCell.swift in Sources */,
 				BB45C5B51CB0B94F00C83051 /* RABLoginViewController.swift in Sources */,
 				BB45C5891CB0ACB200C83051 /* AppDelegate.swift in Sources */,
 				9B59D57C1CCBD23200A8622D /* uiBackground.swift in Sources */,
 				BB45C5BD1CB0EBDA00C83051 /* RABOnboardingLastViewController.swift in Sources */,
 				BB45C5BB1CB0D57600C83051 /* RABUIPageViewController.swift in Sources */,
+				BB6C5DC71CDAF21700425F9B /* RABWishesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addBackground()
     }
     
     @IBAction func goToExperienceCatalog(sender: AnyObject) {

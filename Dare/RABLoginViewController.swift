@@ -21,9 +21,6 @@ class RABLoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addBackground()
-        
-        rabEmail.text = "ronald.abernal@gmail.com"
-        rabPassword.text = "Password123"
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

@@ -17,7 +17,6 @@ class RABForgotPasswordViewController: UIViewController {
         super.viewDidLoad()
         self.view.addBackground()
         
-        RABEmail.text = "ronald.abernal@gmail.com"
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
